@@ -225,9 +225,12 @@ header nav h1{
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    gap:0.28em;
+    margin-bottom: .3em;
   }
   header nav h1{
     flex:1 0 100%;
     border-bottom: none;
+    margin-bottom: 0.45em;
   }
 }
