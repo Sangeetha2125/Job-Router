@@ -1,10 +1,7 @@
 import { Outlet } from "react-router-dom"
 
 function CareerLayout(){
-    return <div className="career-layout">
-        <h1>Careers</h1>
-        <Outlet />
-    </div>
+    return <Outlet />
 }
 
 //Loader Function

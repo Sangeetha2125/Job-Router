@@ -37,7 +37,6 @@ header nav a{
   color: var(--secondary);
 }
 header nav a.active{
-  color: white;
   border: 2px solid var(--secondary);
 }
 header nav h1{
@@ -49,10 +48,10 @@ header nav h1{
 }
 
 /* Home Page,About Page,Help Page */
-.home,.about,.help,.career-layout{
+.home,.about,.help,.career-layout,.career-details{
   padding: 1.5em 2em;
 }
-.home h1,.about h1,.help h1,.career-layout h1{
+.home h1,.about h1,.help h1,.career-layout h1,.career-details h1{
   padding-bottom: 0.4em;
 }
 .home p,.about p,.help p{
@@ -153,6 +152,35 @@ header nav h1{
 }
 .career a:hover p:first-child{
   color: darkred;
+}
+
+/* Career Details */
+.career-details h1 span{
+  color:darkred;
+}
+.career-info{
+  margin: 2em auto;
+  margin-top: 1em;
+  line-height: 2;
+  text-align: justify;
+  background-color: rgba(0,0,0,0.2);
+  padding: 1.2em 1.7em;
+  border-radius: 8px;
+  color: var(--primary);
+  letter-spacing: 1.07px;
+}
+.career-info .location,.career-info .salary{
+  font-size: 1.5em;
+}
+.career-info .location strong{
+  color: darkblue;
+}
+.career-info .salary strong{
+  color: green;
+}
+.career-info .details{
+  margin: 0.6em auto;
+  font-size: 1.08em;
 }
 
 /* Footer */

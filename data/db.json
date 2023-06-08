@@ -4,43 +4,71 @@
         "id": 1,
         "title": "Senior React Developer",
         "salary": 50000,
-        "location": "London, UK"
+        "location": "London, UK",
+        "details": "We are seeking a highly skilled Senior React Developer to join our team in London, UK. In this role, you will be responsible for developing and implementing high-quality, responsive web applications using React.js. You will collaborate closely with cross-functional teams to design and implement new features, enhance existing functionality, and optimize application performance. As a Senior React Developer, you will also mentor and provide technical guidance to junior developers, participate in code reviews, and contribute to the overall architecture and design of our applications. The ideal candidate should have strong experience in React.js development, proficiency in JavaScript, HTML, and CSS, and a solid understanding of modern web development principles and best practices. If you are passionate about creating user-friendly and scalable web applications, thrive in a collaborative environment, and have a track record of delivering high-quality code, we would love to hear from you. Join our team and help us build innovative and cutting-edge web solutions for our clients."
       },
       {
         "id": 2,
         "title": "Plumber",
         "salary": 40000,
-        "location": "Bowser's Castle"
+        "location": "Bowser's Castle",
+        "details": "We are seeking a skilled and experienced Plumber to join our team at Bowser's Castle. As a Plumber, you will be responsible for inspecting, repairing, and maintaining the plumbing systems within the castle. Your duties will include installing new plumbing fixtures, fixing leaks, unclogging drains, and ensuring the overall functionality of the plumbing infrastructure. You will work closely with the maintenance team to address plumbing issues promptly and efficiently, minimizing disruptions and ensuring a safe and comfortable environment for the castle's residents and guests. The ideal candidate should have a solid understanding of plumbing systems, excellent problem-solving skills, and the ability to work independently. Experience in both residential and commercial plumbing is preferred. If you are a reliable and detail-oriented Plumber looking for a challenging and rewarding opportunity, we would love to hear from you. Join our team and contribute to the smooth operation of Bowser's Castle with your expertise."
       },
       {
         "id": 3,
         "title": "Gym Leader",
         "salary": 75000,
-        "location": "Kanto Region"
+        "location": "Kanto Region",
+        "details": "Are you passionate about Pokémon battles and ready to take on the role of a Gym Leader in the Kanto Region? As a Gym Leader, you will be responsible for overseeing and managing a Pokémon gym, where you will challenge and test the skills of aspiring Trainers. Your duties will include organizing and leading battles, designing strategic team compositions, and providing guidance and mentorship to Trainers who aim to defeat you and earn a Gym Badge. You will create a challenging and engaging environment that motivates Trainers to improve their Pokémon training abilities. The ideal candidate should have extensive knowledge and experience in Pokémon battles, excellent communication and leadership skills, and the ability to create exciting and balanced battles. If you have a deep understanding of Pokémon types, moves, and strategies, and enjoy sharing your knowledge and passion with others, this position is perfect for you. Join us as a Gym Leader in the Kanto Region and inspire Trainers to become the very best!"
       },
       {
         "id": 4,
         "title": "Vue Developer",
         "salary": 40000,
-        "location": "Liverpool, UK"
+        "location": "Liverpool, UK",
+        "details": "We are seeking a talented Vue Developer to join our team in Liverpool, UK. As a Vue Developer, you will be responsible for developing and implementing interactive web applications using Vue.js. You will collaborate with a cross-functional team of designers and developers to translate design mockups and requirements into responsive and scalable user interfaces. Your primary focus will be on front-end development, ensuring high performance and a seamless user experience. The ideal candidate should have a strong command of Vue.js, JavaScript, HTML, and CSS, and a solid understanding of modern web development principles. Experience with state management libraries, such as Vuex, and familiarity with RESTful APIs are highly desirable. If you are a passionate and innovative Vue Developer, dedicated to delivering clean and efficient code, we would love to hear from you. Join our team and contribute to the development of cutting-edge web applications that make a positive impact in various industries."
       },
       {
         "id": 5,
         "title": "Tutorial Maker",
         "salary": 35000,
-        "location": "Manchester, UK"
+        "location": "Manchester, UK",
+        "details": "We are looking for a creative and talented Tutorial Maker to join our team in Manchester, UK. As a Tutorial Maker, you will be responsible for creating engaging and informative tutorials on various topics. Your primary focus will be on producing high-quality video content that educates and guides our audience through step-by-step instructions. You will research, plan, and script tutorial videos, ensuring clarity and effectiveness in conveying the subject matter. Proficiency in video editing software and the ability to create visually appealing and well-paced tutorials is essential. The ideal candidate should have excellent communication skills, a strong attention to detail, and the ability to simplify complex concepts. Experience in presenting and explaining technical topics in a clear and concise manner is highly desirable. If you have a passion for teaching, enjoy breaking down complex concepts into easy-to-understand tutorials, and possess a keen eye for creating visually appealing content, we would love to hear from you. Join our team and contribute to the educational content that enriches our audience's learning experience."
       },
       {
         "id": 6,
         "title": "Website Manager",
         "salary": 50000,
-        "location": "Berlin, Germany"
+        "location": "Berlin, Germany",
+        "details": "We are seeking a skilled and experienced Website Manager to join our team in Berlin, Germany. As a Website Manager, you will be responsible for overseeing the maintenance, optimization, and performance of our company's websites. Your primary focus will be on managing website content, ensuring accuracy, relevance, and consistency across all pages. You will work closely with cross-functional teams, including designers, developers, and content creators, to plan and implement website updates, enhancements, and new features. The ideal candidate should have a strong understanding of website management best practices, proficiency in content management systems (CMS), and experience with web analytics tools. Knowledge of SEO principles and web accessibility standards is highly desirable. Additionally, excellent project management and communication skills are essential for effectively coordinating and executing website-related initiatives. If you are detail-oriented, passionate about user experience, and possess a track record of successfully managing websites, we would love to hear from you. Join our team and play a key role in ensuring our websites deliver an exceptional user experience and drive business growth."
       },
       {
         "id": 7,
         "title": "Food Tester",
         "salary": 30000,
-        "location": "London, UK"
+        "location": "London, UK",
+        "details": "We are currently seeking a passionate and discerning Food Tester to join our team in London, UK. As a Food Tester, you will play a crucial role in evaluating the taste, quality, and presentation of various food products. Your responsibilities will include conducting sensory analysis, following testing protocols, and providing detailed feedback on flavor profiles, texture, and overall culinary experience. You will collaborate closely with our culinary team and contribute to the development and improvement of our food products. The ideal candidate should have a strong palate, a deep appreciation for diverse cuisines, and the ability to articulate their sensory experiences effectively. Attention to detail, excellent communication skills, and the ability to work independently are essential. Experience in food testing or a culinary background is highly desirable. If you are a food enthusiast who enjoys exploring different flavors, has a critical eye for food quality, and wants to contribute to the creation of exceptional food products, we would love to hear from you. Join our team and be part of an exciting culinary journey!"
+      },
+      {
+        "id": 8,
+        "title": "Data Analyst",
+        "salary": 60000,
+        "location": "New York City, USA",
+        "details": "We are seeking a skilled Data Analyst to join our team in New York City. As a Data Analyst, you will be responsible for collecting, analyzing, and interpreting complex data sets to provide valuable insights and support decision-making processes. Your duties will include cleaning and transforming data, creating visualizations and reports, and identifying trends and patterns. The ideal candidate should have a strong background in statistical analysis, proficiency in data manipulation and visualization tools, and the ability to communicate findings effectively. Experience with programming languages such as Python or R is highly desirable. If you have a passion for data-driven decision-making, attention to detail, and strong analytical skills, we would love to hear from you. Join our team and contribute to data-driven strategies that drive business success."
+      },
+      {
+        "id": 9,
+        "title": "Marketing Manager",
+        "salary": 70000,
+        "location": "San Francisco, USA",
+        "details": "We are currently looking for a dynamic and experienced Marketing Manager to join our team in San Francisco. As a Marketing Manager, you will be responsible for developing and executing marketing strategies to promote our products or services. Your role will involve conducting market research, analyzing consumer behavior, planning marketing campaigns, and measuring their effectiveness. The ideal candidate should have a strong background in marketing, a creative mindset, and the ability to lead and collaborate with cross-functional teams. Strong communication and project management skills are essential. Experience in digital marketing, social media management, and data analysis is highly desirable. If you are a results-driven marketer with a passion for innovation, join our team and help us drive growth and brand awareness."
+      },
+      {
+        "id": 10,
+        "title": "Graphic Designer",
+        "salary": 45000,
+        "location": "Toronto, Canada",
+        "details": "We are seeking a talented and creative Graphic Designer to join our team in Toronto. As a Graphic Designer, you will be responsible for creating visual concepts and designs for various marketing materials, including websites, advertisements, brochures, and social media content. Your duties will involve understanding project requirements, conceptualizing design ideas, and executing them using graphic design software. The ideal candidate should have a strong portfolio showcasing their design skills, proficiency in design tools such as Adobe Creative Suite, and a keen eye for aesthetics and attention to detail. Strong communication and time management skills are also important. If you are a passionate and innovative designer with a flair for visual storytelling, join our team and contribute to captivating and impactful designs that elevate our brand."
       }
     ]
   }

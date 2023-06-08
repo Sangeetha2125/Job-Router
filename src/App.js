@@ -1,13 +1,18 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from "react-router-dom"
+
 import RootLayout from "./layouts/RootLayout"
 import HelpLayout from "./layouts/HelpLayout"
 import CareerLayout from "./layouts/CareerLayout"
+
+import { careersloader } from "./layouts/CareerLayout"
+import { careerdetailsloader } from "./pages/CareerDetails"
+
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Faq from "./pages/Faq"
 import Contact from "./pages/Contact"
 import Careers from "./pages/Careers"
-import { careersloader } from "./layouts/CareerLayout"
+import CareerDetails from "./pages/CareerDetails"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -20,6 +25,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path="careers" element={<CareerLayout />}>
         <Route index element={<Careers />} loader={careersloader} />
+        <Route path=":id" element={<CareerDetails />} loader={careerdetailsloader} />
       </Route>
     </Route>
   )
