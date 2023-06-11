@@ -1,6 +1,6 @@
 function Footer(){
     return <footer className="footer">
-        <p>@Copyrights Reserved</p>
+        <p>@2023 Copyrights Reserved</p>
     </footer>
 }
 

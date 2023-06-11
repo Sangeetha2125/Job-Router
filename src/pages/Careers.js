@@ -1,16 +1,10 @@
-import { useState } from "react"
-import { Link, useLoaderData } from "react-router-dom"
+import { useEffect, useState } from "react"
+import { Link } from "react-router-dom"
+import Careerlist from "./Careerlist"
+import useFetch from "../hooks/useFetch"
 
 function Careers(){
-    const data = useLoaderData()
-    const [careers,setCareers] = useState(data)
-
-    const deleteCareer=(id)=>{
-        const newCareers = careers.filter(
-            (career) => (career.id!==id)
-        )
-        setCareers(newCareers)
-    }
+    const {data : careers, isLoading, error} = useFetch('http://localhost:4000/careers')
 
     return <div className="career-layout">
         <div className="career-header">
@@ -18,17 +12,9 @@ function Careers(){
             <Link to="create" className="create-career">Add Career</Link>
         </div>
         <div className="career">
-            {careers && careers.map(
-                (career)=>(
-                    <div key={career.id}>
-                        <Link to={career.id.toString()}>
-                            <p>{career.title}</p>
-                            <p>Based on {career.location}</p>
-                        </Link>
-                        <button className="delete-career" onClick={()=>deleteCareer(career.id)}>Delete</button>
-                    </div>
-                )
-            )}
+            {error && <div className="error">{error}</div>}
+            {isLoading && <div className="loading">Loading...</div>}
+            {careers && <Careerlist careers={careers}/>}
         </div>
     </div>
 }
