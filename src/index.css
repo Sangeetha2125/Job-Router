@@ -4,6 +4,8 @@
   font-family: sans-serif;
   box-sizing: border-box;
   transition: 0.25s ease;
+  border: none;
+  outline: none;
 }
 :root{
   --primary:black;
@@ -48,11 +50,11 @@ header nav h1{
 }
 
 /* Home Page,About Page,Help Page */
-.home,.about,.help,.career-layout,.career-details{
+.home,.about,.help,.career-layout,.career-details,.create-form{
   padding: 1.5em 2em;
   padding-top: 1em;
 }
-.home h1,.about h1,.help h1,.career-layout h1,.career-details h1{
+.home h1,.about h1,.help h1,.career-layout h1,.career-details h1,.create-form h1{
   padding-bottom: 0.4em;
 }
 .home p,.about p,.help p{
@@ -145,8 +147,7 @@ header nav h1{
 }
 
 /* Careers */
-.career .career-wrap{
-  position: relative;
+.career .career-wrap{ 
   display: block;
   background-color: rgba(0,0,0,0.2);
   margin: 1em auto;
@@ -200,22 +201,6 @@ header nav h1{
   cursor: pointer;
   transform: translate(0,-4px);
 }
-.delete-career{
-  position: absolute;
-  top:34%;
-  right: 1em;
-  padding: 0.65em 1em;
-  border-radius: 6px;
-  font-size: 1.1em;
-  background-color: rgb(118, 0, 0);
-  color: var(--secondary);
-  border: none;
-  outline: none;
-}
-.delete-career:hover{
-  cursor: pointer;
-  background-color: rgba(118,0,0,0.78);
-}
 .career .error,.career .loading,.career-details .loading,.career-details .error{
   color: grey;
   text-align: center;
@@ -251,6 +236,20 @@ header nav h1{
   font-size: 1.08em;
   letter-spacing: 1.07px;
 }
+.delete-career{
+  padding: 0.8em 1em;
+  margin: 0.5em 0;
+  border-radius: 6px;
+  font-size: 1.1em;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: none;
+  outline: none;
+}
+.delete-career:hover{
+  cursor: pointer;
+  transform: translate(0,-4px);
+}
 
 /* BreadCrumbs */
 .breadcrumbs{
@@ -273,6 +272,49 @@ header nav h1{
 }
 .crumbs .crumb:last-child a:after{
   content: '';
+}
+
+/* Create Career Form */
+.create-form{
+  max-width: 800px;
+  margin: auto;
+}
+.create-form h1{
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+.create-form .form-element{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 0;
+}
+.form-element label{
+  font-size: 1.25em;
+}
+.form-element input,.form-element textarea{
+  width: 60%;
+  padding: 0.45em;
+  font-size: 1.15em;
+  border-radius: 6px;
+  border: 1.5px solid;
+}
+.form-element textarea{
+  resize: none;
+}
+.form-element button{
+  width: 100%;
+  padding: 0.75em;
+  font-size: 1.1em;
+  background-color: var(--primary);
+  color: var(--secondary);
+  margin-top: 0.7em;
+  border-radius: 6px;
+}
+.form-element button:hover{
+  cursor: pointer;
+  background-color: rgb(0, 0, 0,0.85);
 }
 
 /* Footer */
@@ -311,5 +353,13 @@ header nav h1{
     width: 100%;
     margin: 1.5em 0;
     height: 350px;
+  }
+}
+@media screen and (max-width:700px) {
+  .career .career-container img{
+    display: none;
+  }
+  .career .career-wrap{
+    padding: 1em 1.5em;
   }
 }

@@ -16,7 +16,7 @@ function useFetch(url){
                 return res.json()
             }).then((data)=>{
                 setData(data)
-                setisLoading(false)
+                setisLoading(false)         
                 setError(null)
             }).catch((err)=>{
                 setError(err.message)
