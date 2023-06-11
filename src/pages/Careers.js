@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import Careerlist from "./Careerlist"
 import useFetch from "../hooks/useFetch"

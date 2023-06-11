@@ -277,7 +277,7 @@ header nav h1{
 }
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
   header nav{
     flex-wrap: wrap;
     text-align: center;
@@ -289,5 +289,17 @@ header nav h1{
     flex:1 0 100%;
     border-bottom: none;
     margin-bottom: 0.45em;
+  }
+  header nav img{
+    display: none;
+  }
+  .home img{
+    width: 100%;
+    margin: 1.5em 0;
+  }
+  .about img{
+    width: 100%;
+    margin: 1.5em 0;
+    height: 350px;
   }
 }
