@@ -145,21 +145,31 @@ header nav h1{
 }
 
 /* Careers */
-.career div{
+.career .career-wrap{
   position: relative;
-}
-.career a{
   display: block;
   background-color: rgba(0,0,0,0.2);
   margin: 1em auto;
-  padding: 1em 1.5em;
+  padding: 1em 0.5em;
   border-radius: 8px;
+}
+.career .career-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:1.2em;
+  align-items: center;
+}
+.career .career-container img{
+  width: 86px;
+}
+.career a{
   text-decoration: none;
   color: var(--primary);
 }
 .career p{
-  margin: 0.5em;
   letter-spacing: 1.07;
+  margin: 0.5em 0;
 }
 .career p:first-child{
   font-weight:700;
